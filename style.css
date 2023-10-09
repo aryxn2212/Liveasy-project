@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+}
+
+/* CSS for Body */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* CSS for Header */
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+/* CSS for Header's Anchor Tags */
+.header a {
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+    text-decoration: inherit;
+}
+
+/* CSS for Header's Anchor Tags */
+.header a:hover {
+    text-decoration: underline;
+}
+
+/* CSS for Right-side elements in Header */
+.header__right {
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+
+/* CSS for Right-side app icons in Header */
+.header__right .header__apps {
+    margin-right: 10px;
+}
+
+/* CSS for MAIN BODY */
+.mainbody {
+    flex: 1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+/* CSS for Google logo */
+.mainbody img {
+    object-fit: contain;
+    height: 100px;
+}
+
+/* CSS for input bar */
+.search__input {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+}
+
+.search__input input {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+.search__input .material-icons {
+    color: gray;
+}
+
+/* CSS for Search buttons and the right one */
+.search__buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.search__buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* CSS for the languages row */
+.languages {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.languages li {
+    list-style: none;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+.languages li a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.languages li a:hover {
+    text-decoration: underline;
+}
+
+/* CSS for FOOTER section */
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f2f2f2;
+}
+
+.footer .row {
+    padding: 15px 25px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.footer .row.row1 {
+    padding-left: 40px;
+}
+
+.footer .row.row2 a:hover {
+    text-decoration: underline;
+}
+
+.footer .row.row2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+.footer .row.row2 ul {
+    display: flex;
+}
+
+.footer .row.row2 ul li {
+    list-style: none;
+}
+
+.footer .row.row2 ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #5f6368;
+    margin-right: 25px;
+}
+
+.footer .row.row2 ul:nth-child(2) li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #5f6368;
+    margin-right: 0px;
+    margin-left: 25px;
+}
+
+.footer .row.row2 ul:nth-child(2) li a:hover {
+    text-decoration: underline;
+}
